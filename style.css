@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: absolute;
+    font-size: 33px;
+    z-index: 10;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+}
+
+main {
+    text-align: center;
+    position: relative;
+}
+
+.main-image img {
+    width: 100%;
+    display: block;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 5px; /* 左右の余白を追加して要素が端にくっつかないようにする */
+}
+
+.contents-item {
+    flex: 1;
+    margin: 0 5px;
+    text-align: center;
+    background-color: #564b4b;
+}
+
+.contents-item img {
+    width: 100%;
+    display: block;
+}
+
+.contents-item h2 {
+    margin: 10px 0;
+    font-size: 40px
+}
+
+.contents-item p {
+    margin: 0;
+}
